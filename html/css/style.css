@@ -208,10 +208,10 @@ body .units.alpha {
   .responsive #top #wrap_all .av-flex-cells .no_margin {
     display: block;
     margin: 0;
-    height: 450px !important;
+    height: 450px ;
     overflow: hidden;
-    padding-left: 8% !important;
-    padding-right: 8% !important
+    padding-left: 8% ;
+    padding-right: 8%;
   }
 
   .responsive #top #wrap_all .av-flex-cells .no_margin .flex_cell_inner {
@@ -32250,7 +32250,6 @@ body .av-special-heading.av-8qfm5-f0c55a6477f68aaaa023f18ee1d45c55 .av-special-h
 /* alg.css */
 
 .responsive #top #wrap_all .av-flex-cells .no_margin {
-  height: auto !important;
   overflow: hidden
 }
 
@@ -32382,9 +32381,9 @@ body .av-special-heading.av-1lwml-d02a3d8f4e35fb212910c8d3cd50f69d .av-special-h
       flex-direction: column;
       max-width: 80%;
       display: flex;
-            justify-content: space-between;
-            position: relative;
-      padding-left: 8rem;
+      justify-content: space-between;
+      position: relative;
+      padding-left: 3rem;
     }
     
     form {
@@ -32429,14 +32428,14 @@ iframe .place-card .place-card-large{
   padding: 20px;
   border: 1px solid black;
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 5px;
+  left: 5px;
   z-index: 1;
   color: black;
   font-size: 10px;
   line-height: 1.2;
   border-radius: 20px;
-  width: 280px;
+  width: 300px;
   height: 240px;
   box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2), 5px 5px 15px rgba(0, 0, 0, 0.3);
   font-family: open sans, Helvetica, Arial, sans-serif;
@@ -32457,4 +32456,16 @@ iframe .place-card .place-card-large{
   #my-image {
   display: none !important;
   }
+}
+
+@media only screen and (max-width: 400px) {
+  .container1 {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+}
+.place-card-large {
+  margin: 0 !important;
+  padding: 0 !important;
 }
